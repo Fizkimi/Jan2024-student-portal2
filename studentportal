@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Portal - Jan 2024</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #004AAD;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section-title {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: #004AAD;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Student Portal - Batch Jan 2024</h1>
+  </header>
+
+  <section>
+    <div class="section-title">High Committee</div>
+    <div class="card-container">
+      <div class="card">
+        <h3>Presiden</h3>
+        <p>WAN NOR LAILA BINTI MOHD YUSOF</p>
+      </div>
+      <div class="card">
+        <h3>Naib Presiden</h3>
+        <p>MUHAMMAD HAFIZ HAKIMI</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">AJK Kelas</div>
+    <div class="card-container">
+      <div class="card">
+        <h3>Setiausaha</h3>
+        <p>Nama Setiausaha</p>
+      </div>
+      <div class="card">
+        <h3>Bendahari</h3>
+        <p>Nama Bendahari</p>
+      </div>
+      <!-- Tambah card lain di sini -->
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2024 Student Portal Batch Jan | Dibina oleh Hafiz
+  </footer>
+
+</body>
+</html>
